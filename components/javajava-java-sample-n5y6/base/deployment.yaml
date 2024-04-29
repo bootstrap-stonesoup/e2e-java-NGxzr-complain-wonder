@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: javajava-java-sample-n5y6
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/bootstrap/rhtap-demo-qocd-tenant/e2e-java/javajava-java-sample-n5y6@sha256:7a56f2d00f256382148ec0c4ff399b840bc771db2f7e308e0c542f7db35e518d
         name: my-java-springboot
         ports:
         - containerPort: 8081
